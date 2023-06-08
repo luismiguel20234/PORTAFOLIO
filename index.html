@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" type="image/png" href="img/configuracion-de-pc.png"
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#"> MI PORTAFOLIO
+                </a>   
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onelick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onelick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onelick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#plandeestudios" onelick="seleccionar()">PLAN DE ESTUDIOS</a></li>
+                    <li><a href="#portfolio" onelick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onelick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onelick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!--SECCION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/Luis.jpg" alt="">
+            </div>
+            <h1>Luis Miguel</h1>
+            <h2>tecnico en sistemas- y Mantenimiento de compu</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola, soy Luis Miguel.</span>Santos, naci en neiva-huila, tengo 20 años soy egresado de la escuela IPC Tecnico Andres Rosa y continue mis estudios como tecnico en sistemas en el Politecnico Americano Me gusta mucho el deporte tengo buena diciplina y costancia en lo que hago.</p>
+            <div class="fila">
+                <!--datos personales-->
+                <div class="col">
+                    <h3>Datos personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            18-08-2003
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>
+                            3188969409
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            luismiguelsantosmonsalve@gmail.com
+                        </li>
+                        <li>
+                            <strong>Direccion</strong>
+                            Cra31 B 2A#46 neiva huila colombia
+                        </li>
+                        <li>
+                            <strong>Ocupacion</strong>
+                            <span>Estudiante</span>
+                        </li>
+                    </ul>
+                </div>
+                <!--intereses-->
+                <div class="col">
+                    <h3>intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-regular fa-futbol"></i>
+                            <span>FUTBOL</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-book"></i>
+                        <span>LEER</span>
+                </div>
+                <div class="interes">
+                    <i class="fa-solid fa-bicycle"></i>
+                    <span>BICICLETA</span>
+            </div>
+            <div class="interes">
+                <i class="fa-solid fa-dumbbell"></i>
+                <span>EJERCICIO</span>
+        </div>
+        <div class="interes">
+            <i class="fa-sharp fa-solid fa-motorcycle"></i>
+            <span>Motos</span>
+    </div>
+    <div class="interes">
+        <i class="fa-solid fa-camera"></i>
+        <span>Fotos</span>
+</div>
+        </div>
+        <button>
+            Descargar CV <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+        </button>
+    </section>
+
+    <!--SECCION SKILLS-->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--Technical Skill-->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso javascript">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso htmlcss">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso photoshop">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso wordpress">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Drupa</span>
+                        <div class="barra-skill">
+                            <div class="progreso drupal">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Professional Skills-->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso comunicacion">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Individual</span>
+                        <div class="barra-skill">
+                            <div class="progreso individual">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso creatividad">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso dedicacion">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Paciencia</span>
+                        <div class="barra-skill">
+                            <div class="progreso paciencia">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION PLAN DE ESTUDIOS-->
+    <section id="plandeestudios" class="plandeestudios">
+        <div class="contenido-seccion">
+            <h2>PLAN DE ESTUDIOS</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educacion Secundaria</h3>
+                    <div class="item izq">
+                        <h4>Secundaria-sexto-once</h4>
+                        <span class="casa">Institución Educativa Técnico IPC Andrés Rosas</span>
+                        <span class="fecha">2017- 2022</span>
+                        <p>empeze a estudiar desde sexto hasta once en el colegio IPC Andres Rosa la cual es conocida por los grandes logros que han alcazado las istitucion y sus grandes maestros me forme como diseñador de muebles y fabricacion de madera ademas de realizar el servicio social en la sede durante mi ultimo año escolar 11 y graduarme como bachiller de metal madera ene el año 2022.</p>
+                        <img src="img/ipc andres rosa.jfif" alt="">
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experencia de Estudios</h3>
+                    <div class="item der">
+                        <h4>Tecnico En Sistemas</h4>
+                        <span class="casa">Politecnico Americano</span>
+                        <span class="fecha">2023- 2024</span>
+                        <p>luego de poder graduarme como tecnico en metal madera decidi ingresar a estudiar como tecnico en sistemas y mantenimiento de compu en el Politecnico Americano. y fecha de hoy sigo cursando el segundo semestre con la ilusion de lograr mis metas.</p>
+                        <img src="img/politecnico.jfif" alt="">
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+        </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--SECCION PORTFOLIO-->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/tecnico-en-sistemas.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>FORMATEO</h3>
+                        <p>partcionamiento</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/tecnico 2.png" alt="">
+                    <div class="overlay">
+                        <h3>MANTENIMIENTO</h3>
+                        <p>Preventivo</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/tecnico 3.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>RECUPERACION</h3>
+                        <p>Datos</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/tecnico 4.png" alt="">
+                    <div class="overlay">
+                        <h3>ISTALACION</h3>
+                        <p>redes</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/tecnico 5.png" alt="">
+                    <div class="overlay">
+                        <h3>PROGRAMA</h3>
+                        <p>de servicios</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION CONTACTO-->
+<section id="contacto" class="contacto">
+    <div class="contenido-seccion">
+        <h2>CONTACTO</h2>
+        <div class="fila">
+            <!--Formulario-->
+            <div class="col">
+                <input type="text" placeholder="Tu Nombre">
+                <input type="text" placeholder="Numero telefonico">
+                <input type="text" placeholder="Dirrecion de correo">
+                <input type="text" placeholder="Tema">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <button>
+                    Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                    <span class="overlay"></span> 
+                </button>
+            </div>
+            <!--Mapa-->
+            <div class="col">
+                <img src="img/Ubicacion.jpg" alt="">
+                <div class="info">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            San carlos CRA31 B 2A#46
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-mobile-screen"></i>
+                            Llamanos: 3188969409
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            Email: luismiguelsantosmonsalve@gmail.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+
+ <!--footer-->
+ <footer>
+    <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+ </footer>
+ 
+ <script src="script.js"></script>
+</body>
+</html>    
